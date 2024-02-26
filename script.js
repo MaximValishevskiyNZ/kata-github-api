@@ -36,8 +36,8 @@ function addRepo(repo) {
 
     item.innerHTML = `
     <span>${repo.name}</span>
-    <span>by ${repo.owner}</span>
-    <span>⭐${repo.stars}</span>
+    <span> by ${repo.owner}</span>
+    <span> ⭐${repo.stars}</span>
     <button class="remove">X</button>
   `;
 
